@@ -1,0 +1,27 @@
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.product-card{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+.product-card img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.product-info h2{
+    font-size: 22px;
+}
+.product-info p{
+    font-size: 16px;
+}
